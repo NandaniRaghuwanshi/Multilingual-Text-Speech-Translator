@@ -50,7 +50,8 @@ This repository contains the source code and build outputs for a multilingual we
 ```
 ## Installation
 1. Clone the Repository:
-     ```git clone https://github.com/your-username/Multilingual-Voice-Speech-Translator-.git
+     ```
+       git clone https://github.com/your-username/Multilingual-Voice-Speech-Translator-.git
        cd Multilingual-Voice-Speech-Translator-
    ```
 
