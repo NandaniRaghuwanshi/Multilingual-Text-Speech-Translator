@@ -1,14 +1,14 @@
 # Multilingual-Voice-Speech-Translator-
 A multilingual web application designed to deliver content in multiple languages. This project builds a production-ready bundle that can be deployed to a static server or integrated into a larger application.
 # Table of Contents
-  Overview
-  Project Structure
-  Installation
-  Development
-  Build and Deployment
-  Usage
-  Contributing
-  License
+  - **Overview**
+  - **Project Structure**
+  - **Installation**
+  - **Development**
+  - **Build and Deployment**
+  - **Usage**
+  - **Contributing**
+  - **License**
 ## Overview
 This repository contains the source code and build outputs for a multilingual web application. The current version is 26-02-2025. The build process generates a production-ready version under the build/ directory, including HTML, CSS, JavaScript assets, and media files.
 
