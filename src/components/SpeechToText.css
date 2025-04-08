@@ -1,0 +1,65 @@
+.checkbox-wrapper-8 .tgl {
+  display: none;
+}
+
+.checkbox-wrapper-8 .tgl + .tgl-btn {
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10em; /* Increased width for longer text */
+  height: 3em;
+  cursor: pointer;
+  user-select: none;
+  background: #0d6efd;
+  border-radius: 1.5em; /* Rounded corners */
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  transition: background 0.3s ease-in-out;
+  text-align: center;
+}
+
+.checkbox-wrapper-8 .tgl + .tgl-btn:before {
+  content: attr(data-tg-off);
+}
+
+.checkbox-wrapper-8 .tgl:checked + .tgl-btn {
+  background: #888;
+}
+
+.checkbox-wrapper-8 .tgl:checked + .tgl-btn:before {
+  content: attr(data-tg-on);
+}
+
+  
+.speech-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap; /* ✅ Allows wrapping on small screens */
+  justify-content: center; /* ✅ Centers buttons if they wrap */
+}
+
+
+.custom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px; /* ✅ Prevents tiny buttons */
+  flex-grow: 1; /* ✅ Allows resizing */
+}
+
+  
+  
+  .custom-btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .svg-icon {
+    fill: currentColor;
+    width: 18px;
+    height: 18px;
+  }
+  

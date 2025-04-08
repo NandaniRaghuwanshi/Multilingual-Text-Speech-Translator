@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aafe185d.css",
+    "main.js": "/static/js/main.58887686.js",
+    "static/media/NIELIT_logo.png": "/static/media/NIELIT_logo.b9cd9dcdf27e2d043356.png",
+    "static/media/VSN04.png": "/static/media/VSN04.d186d7b6edb915d72e09.png",
+    "index.html": "/index.html",
+    "main.aafe185d.css.map": "/static/css/main.aafe185d.css.map",
+    "main.58887686.js.map": "/static/js/main.58887686.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aafe185d.css",
+    "static/js/main.58887686.js"
+  ]
+}

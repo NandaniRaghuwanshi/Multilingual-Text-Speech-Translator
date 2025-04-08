@@ -1,0 +1,68 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Add styles for TranslatorApp */
+.translator-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.translator-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.translator-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.translator-container button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.translator-container input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.translator-container select {
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.translator-container div {
+  margin-bottom: 20px;
+}
+
+.translator-container h3 {
+  font-size: 18px;
+}
