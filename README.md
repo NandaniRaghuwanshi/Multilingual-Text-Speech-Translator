@@ -89,11 +89,10 @@ To start a local development server (if applicable):
   - Azure Document Intelligence - for document parsing.
  ### Configuration
    ```
-   // Azure Keys
   const speechKey = "your speech key";
   const speechRegion = "your speech key region";
   const translatorKey = "your translator key";
   const translatorEndpoint = "your translator endpoint";
   const documentIntelligenceKey = "your document intelligence key";
   const documentIntelligenceEndpoint = "your document intelligence endpoint";
-```
+  ```
