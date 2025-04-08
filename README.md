@@ -6,9 +6,7 @@ A multilingual web application designed to deliver content in multiple languages
   - **Installation**
   - **Development**
   - **Build and Deployment**
-  - **Usage**
-  - **Contributing**
-  - **License**
+  - **Azure API Integration**
 ## Overview
 This repository contains the source code and build outputs for a multilingual web application. The current version is 26-02-2025. The build process generates a production-ready version under the build/ directory, including HTML, CSS, JavaScript assets, and media files.
 
@@ -71,16 +69,31 @@ To start a local development server (if applicable):
      npm start
      ```
 ## Build and Deployment
-  ```
-   npm run build
-   ```
+      ```
+      npm run build
+      ```
   **or**
-   ```
-   yarn build
-   ```
+     ```
+     yarn build
+     ```
   This command generates the files in the build/ directory, which you can then deploy to your preferred hosting service (such as GitHub Pages, Netlify, or a traditional web server).
 
 ## Deployment Options
   - **Static Server:** You can serve the contents of the build/ directory using a simple static file server.
   - **GitHub Pages:** For GitHub Pages deployment, consider using a package such as gh-pages.
      
+## Azure API Integration
+  This project leverages Azure Cognitive Services to support multilingual capabilities and enhance user interaction. The Azure services integrated may include:
+  - Azure Translator Text API – for real-time language translation.
+  - Azure Speech Services – for text-to-speech (TTS) or speech-to-text (STT) capabilities.
+  - Azure Document Intelligence - for document parsing.
+ ### Configuration
+   ```
+   // Azure Keys
+  const speechKey = "your speech key";
+  const speechRegion = "your speech key region";
+  const translatorKey = "your translator key";
+  const translatorEndpoint = "your translator endpoint";
+  const documentIntelligenceKey = "your document intelligence key";
+  const documentIntelligenceEndpoint = "your document intelligence endpoint";
+```
