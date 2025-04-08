@@ -16,7 +16,8 @@ This repository contains the source code and build outputs for a multilingual we
 
 ## Project Structure
 
-```/Multilingual-Voice-Speech-Translator-
+```
+/Multilingual-Voice-Speech-Translator-
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
@@ -54,4 +55,11 @@ This repository contains the source code and build outputs for a multilingual we
        git clone https://github.com/your-username/Multilingual-Voice-Speech-Translator-.git
        cd Multilingual-Voice-Speech-Translator-
    ```
-
+2. Install Dependencies: If your project does not include the node_modules/ directory in the repo (recommended for GitHub), run:
+   ```
+     npm install
+   ```
+or if you are using Yarn:
+```
+    yarn install
+```
