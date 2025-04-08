@@ -14,7 +14,7 @@ This repository contains the source code and build outputs for a multilingual we
 
 **Note**: This repository includes a node_modules/ folder that houses various dependencies. In many development setups, it is common to add node_modules/ to the .gitignore file and instead install the dependencies locally using npm install or yarn.
 
-# Project Structure
+## Project Structure
 
 ```/Multilingual-Voice-Speech-Translator-
 ├── .gitignore
@@ -47,3 +47,9 @@ This repository contains the source code and build outputs for a multilingual we
         ├── SpeechToText.js
         ├── TextToSpeech.js
         └── TextToText.js
+```
+## Installation
+1. Clone the Repository:
+   ```git clone https://github.com/your-username/Multilingual-Voice-Speech-Translator-.git
+cd Multilingual-Voice-Speech-Translator-
+
