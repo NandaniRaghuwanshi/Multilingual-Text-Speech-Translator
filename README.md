@@ -59,7 +59,7 @@ This repository contains the source code and build outputs for a multilingual we
    ```
    npm install
    ```
-  or if you are using Yarn:
+   **or if you are using Yarn:**
    ```
    yarn install
    ```
