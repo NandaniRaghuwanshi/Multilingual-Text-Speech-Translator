@@ -57,9 +57,30 @@ This repository contains the source code and build outputs for a multilingual we
    ```
 2. Install Dependencies: If your project does not include the node_modules/ directory in the repo (recommended for GitHub), run:
    ```
-     npm install
+   npm install
    ```
-or if you are using Yarn:
-```
-    yarn install
-```
+  or if you are using Yarn:
+   ```
+   yarn install
+   ```
+## Development
+To start a local development server (if applicable):
+  1. Ensure that your dependencies are installed.   
+  2. Run the development server:
+      ```
+     npm start
+     ```
+## Build and Deployment
+  ```
+   npm run build
+   ```
+  **or**
+   ```
+   yarn build
+   ```
+  This command generates the files in the build/ directory, which you can then deploy to your preferred hosting service (such as GitHub Pages, Netlify, or a traditional web server).
+
+## Deployment Options
+  - **Static Server:** You can serve the contents of the build/ directory using a simple static file server.
+  - **GitHub Pages:** For GitHub Pages deployment, consider using a package such as gh-pages.
+     
