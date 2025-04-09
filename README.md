@@ -8,7 +8,7 @@ A multilingual web application designed to deliver text/speech in multiple langu
   - **Build and Deployment**
   - **Azure API Integration**
 ## Overview
-This repository contains the source code and build outputs for a multilingual web application.The build process generates a production-ready version under the build/ directory, including HTML, CSS, JavaScript assets, and media files.
+This repository contains the source code and build outputs for a multilingual web application.The build process generates a production-ready version under the build/ directory, including HTML, CSS, JavaScript assets, and Azure API.
 
 ## Project Structure
 
