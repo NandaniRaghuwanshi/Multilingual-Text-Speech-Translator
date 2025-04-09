@@ -1,5 +1,5 @@
 # Multilingual-Voice-Speech-Translator-
-A multilingual web application designed to deliver content in multiple languages. This project builds a production-ready bundle that can be deployed to a static server or integrated into a larger application.
+A multilingual web application designed to deliver text/speech in multiple languages. This project builds a production-ready bundle that can be deployed to a static server or integrated into a larger application.
 # Table of Contents
   - **Overview**
   - **Project Structure**
