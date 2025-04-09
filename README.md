@@ -50,7 +50,7 @@ This repository contains the source code and build outputs for a multilingual we
 ## Installation
 1. Clone the Repository:
      ```
-       git clone https://github.com/your-username/Multilingual-Voice-Speech-Translator-.git
+       git clone https://github.com/NandaniRaghuwanshi/Multilingual-Voice-Speech-Translator-.git
        cd Multilingual-Voice-Speech-Translator-
    ```
 2. Install Dependencies: If your project does not include the node_modules/ directory in the repo (recommended for GitHub), run:
