@@ -10,8 +10,6 @@ A multilingual web application designed to deliver content in multiple languages
 ## Overview
 This repository contains the source code and build outputs for a multilingual web application.The build process generates a production-ready version under the build/ directory, including HTML, CSS, JavaScript assets, and media files.
 
-**Note**: This repository includes a node_modules/ folder that houses various dependencies. In many development setups, it is common to add node_modules/ to the .gitignore file and instead install the dependencies locally using npm install or yarn.
-
 ## Project Structure
 
 ```
